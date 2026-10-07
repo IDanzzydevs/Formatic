@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --f-azul: #224D8E;
+    /* Azul institucional FormaTIC */
+    --f-verde: #39A900;
+    /* Verde institucional SENA/FormaTIC */
+    --bg-gris: #DEDEDE;
+    /* Gris para Header y Sidebar según tu Figma */
+    --t-alertas: #FF0000;
+    /* Color para notificaciones o alertas */
+
+    /* Variables de fondo y texto generales */
+    --bg-body: #f8fafc;
+    --text-primary: #0f172a;
+}
+
+body {
+    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-body, #f8fafc);
+    color: var(--text-primary, #0f172a);
+    line-height: 1.5;
+}
